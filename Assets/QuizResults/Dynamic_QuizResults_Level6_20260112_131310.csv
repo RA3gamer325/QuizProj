@@ -1,0 +1,33 @@
+Question,Topic,Difficulty,Weight,SelectedAnswer,CorrectAnswer,Correct
+(Easy) How do you write a multi-line comment in Java?,Comments,Easy,0.25,/* comment */,/* comment */,True
+(Easy) Which data type is used to store decimal values?,Data Types,Easy,0.25,double,double,True
+(Easy) Which method prints text followed by a newline?,Output,Easy,0.25,System.out.print(),System.out.println(),False
+(Easy) What is the correct file extension for a Java source file?,Syntax,Easy,0.25,.jav,.java,False
+(Easy) Which keyword is used to create a constant in Java?,Variables,Easy,0.25,constant,final,False
+(Easy) Which creates a Scanner to read from the keyboard?,Input,Easy,0.25,Scanner(System);,new Scanner(System.in);,False
+(Easy) Which escape sequence represents a double quote inside a string literal?,Strings,Easy,0.25,",",True
+(Easy) Which performs an explicit cast from long to int?,Type Casting,Easy,0.25,int x = (int) y;,int x = (int) y;,True
+(Easy) Which operator computes the remainder?,Operators,Easy,0.25,%,%,True
+(Easy) Which keyword is used to declare a class in Java?,Syntax,Easy,0.25,class,class,True
+(Medium) Which conversion requires explicit casting?,Type Casting,Medium,0.6,double to int,double to int,True
+(Easy) Which creates a Scanner to read from the keyboard?,Input,Easy,0.25,new Scanner();,new Scanner(System.in);,False
+(Medium) Which block is a Javadoc comment?,Comments,Medium,0.6,/** ... */,/** ... */,True
+(Medium) Which access level makes a member visible only within its package?,Syntax,Medium,0.6,private,no modifier (package-private),False
+(Medium) Which access level makes a member visible only within its package?,Syntax,Medium,0.6,private,no modifier (package-private),False
+(Easy) Which is a valid long literal?,Variables,Easy,0.25,100L,100L,True
+(Easy) Which creates a Scanner to read from the keyboard?,Input,Easy,0.25,new Scanner();,new Scanner(System.in);,False
+(Easy) Which method supports format specifiers like %d and %.2f?,Output,Easy,0.25,System.out.write(),System.out.printf(),False
+(Easy) Which creates a Scanner to read from the keyboard?,Input,Easy,0.25,new Scanner();,new Scanner(System.in);,False
+(Medium) Which is a valid float literal?,Variables,Medium,0.6,3.14F,3.14F,True
+
+Total Score,'10/20'
+Knowledge States:
+Syntax,0.52
+Variables,0.81
+Data Types,0.62
+Output,0.25
+Operators,0.62
+Comments,0.82
+Strings,0.62
+Type Casting,0.82
+Input,0.21

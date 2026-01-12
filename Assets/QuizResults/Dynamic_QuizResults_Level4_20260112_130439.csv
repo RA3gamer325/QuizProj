@@ -1,0 +1,33 @@
+Question,Topic,Difficulty,Weight,SelectedAnswer,CorrectAnswer,Correct
+(Easy) Which symbol is used for multiplication in Java?,Operators,Easy,0.25,*,*,True
+(Easy) Which method supports format specifiers like %d and %.2f?,Output,Easy,0.25,System.out.printf(),System.out.printf(),True
+(Easy) How do you write a single-line comment in Java?,Comments,Easy,0.25,//,//,True
+(Easy) Which of these is NOT a primitive data type in Java?,Data Types,Easy,0.25,String,String,True
+(Easy) Which symbol is used to end a statement in Java?,Syntax,Easy,0.25,;,;,True
+(Easy) Which creates a Scanner to read from the keyboard?,Input,Easy,0.25,new Scanner(System.in);,new Scanner(System.in);,True
+(Easy) Which of these is a correct way to declare a string?,Strings,Easy,0.25,String name = "Java";,String name = "Java";,True
+(Easy) What happens if you use a local variable before initializing it?,Variables,Easy,0.25,It defaults to 0,Compiler error,False
+(Easy) Which performs an explicit cast from long to int?,Type Casting,Easy,0.25,int x = (int) y;,int x = (int) y;,True
+(Medium) Which is a valid Unicode escape for 'A'?,Syntax,Medium,0.6,"u0041",'\u0041',False
+(Medium) Which printf specifier prints a floating number with two decimals?,Output,Medium,0.6,%.2f,%.2f,True
+(Medium) What will this print? int a = 5  b = 2; System.out.println(a / b);,Operators,Medium,0.6,2.5,2,False
+(Easy) Which is a valid char declaration and initialization?,Variables,Easy,0.25,char grade = "A";,char grade = 'A';,False
+(Medium) What will this code output? int x = 7; System.out.println(x % 3);,Operators,Medium,0.6,2,2,True
+(Medium) What does `"hello".indexOf("z")` return?,Strings,Medium,0.6,1,-1,False
+(Medium) Which converts a String to a double?,Type Casting,Medium,0.6,Double.parseDouble(),Double.parseDouble(),True
+(Medium) Result of "abc".equalsIgnoreCase("ABC")?,Strings,Medium,0.6,false,true,False
+(Medium) Which block is a Javadoc comment?,Comments,Medium,0.6,/** ... */,/** ... */,True
+(Medium) What is the size of an int in Java?,Data Types,Medium,0.6,16 bits,32 bits,False
+(Medium) Which access modifier restricts visibility to the same class only?,Syntax,Medium,0.6,private,private,True
+
+Total Score,'13/20'
+Knowledge States:
+Syntax,0.79
+Variables,0.25
+Data Types,0.57
+Output,0.82
+Operators,0.79
+Comments,0.82
+Strings,0.53
+Type Casting,0.82
+Input,0.62
