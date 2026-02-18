@@ -788,6 +788,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1418662903}
     m_Modifications:
+    - target: {fileID: 658883781025591942, guid: a56844e822d6b8e409e60365d93f3b6e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2277367815253467857, guid: a56844e822d6b8e409e60365d93f3b6e, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3577910747965539478, guid: a56844e822d6b8e409e60365d93f3b6e, type: 3}
       propertyPath: m_Name
       value: ExplanationPanel
@@ -1230,7 +1238,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 5d9b109272b8dbb439753fa555d480ee, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.15
+  m_Volume: 0.021
   m_Pitch: 1
   Loop: 1
   Mute: 0
